@@ -1,0 +1,11 @@
+{
+    "key": "",
+    "type": "ep-accordion",
+    "templateOptions": {
+        "collapseAllButActive": false,
+        "contentClass": "",
+        "toolBarClass": "",
+        "toolBarClassActive": "",
+        "accordionOptionsArray": ""
+    }
+}
