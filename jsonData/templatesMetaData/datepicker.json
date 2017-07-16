@@ -1,0 +1,22 @@
+{
+    "key": "",
+    "type": "ep-datepicker",
+    "id": "EmployeeDOB",
+    "templateOptions": {
+        "label": "DOB",
+        "options": [],
+        "required": true,
+        "defaultRequired": true,
+        "disable": true,
+        "format": "yyyy/MM/dd",
+        "minDate": "1/1/2015",
+        "maxDate": "1/1/2020",
+        "disabled": false
+    },
+    "validation": {
+        "messages": {
+            "required": "\"DOB is required\"",
+            "mindate": "\"minDate is required\""
+        }
+    }
+}
