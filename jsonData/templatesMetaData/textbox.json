@@ -1,15 +1,13 @@
 {
-    "options": {
-        "key": "",
-        "id": "",
-        "type": "ep-text",
-        "templateOptions": {
-            "label": "",
-            "required": false,
-            "maxlength": 30,
-            "minlength": 10,
-            "disabled": false,
-            "placeholder": ""
-        }
+    "key": "",
+    "id": "",
+    "type": "ep-text",
+    "templateOptions": {
+        "label": "",
+        "required": false,
+        "maxlength": 30,
+        "minlength": 10,
+        "disabled": false,
+        "placeholder": ""
     }
 }
