@@ -1,0 +1,17 @@
+{
+  "name": "epsilonda.github.io",
+  "homepage": "https://github.com/epsilonda/epsilonda.github.io",
+  "authors": [
+    "Surya <itzmesurya@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
