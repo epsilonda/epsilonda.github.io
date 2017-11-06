@@ -76,23 +76,6 @@
     {
         "id": "FieldName",
         "key": "KeyName",
-        "type": "ep-htmleditor",
-        "templateOptions": {
-            "label": "HTML Editor",
-            "required": true,
-            "noResize": true,
-            "noAutogrow": false,
-            "className": "width-100",
-            "removeButtons": "Cut,Copy,Paste,PasteText,PasteFromWord,Undo,Redo,Scayt,Link,Unlink,Anchor,Image,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe,Maximize,Source,Styles,Format"
-
-        },
-        "validation": {
-            "messages": {}
-        }
-    },
-    {
-        "id": "FieldName",
-        "key": "KeyName",
         "type": "ep-checkbox",
         "templateOptions": {
             "label": "CheckBox",
