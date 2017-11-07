@@ -15,13 +15,13 @@
 {
     "id": "FieldName",
     "type": "ep-button",
-
+    "className": "pull-right",
     "templateOptions": {
         "label": "Button",
         "text": "ButtonText",
         "onClick": "formState.submit(model)",
         "type": "button",
-        "btnType": "btn btn-default"
+        "btnType": "btn btn-sm btn-primary"
     }
 },
 {
@@ -50,7 +50,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-checkbox",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "ngModelAttrs": {
         "ngFalseValue": {
             "attribute": "ng-false-value"
@@ -73,7 +73,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-checklist",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Check List",
         "options": [{
@@ -136,7 +136,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-contextbutton",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Context Button",
         "entity": "EntityName",
@@ -149,7 +149,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-datepicker",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "type": "text",
         "label": "Date Picker",
@@ -169,7 +169,7 @@
     "id": "FieldName",
     "key": "TempKeyName",
     "type": "ep-select",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "actualModel": "KeyName",
         "label": "Dropdown",
@@ -183,7 +183,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-editableselect",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Editable Dropdown",
         "labelProp": "TITLE",
@@ -210,7 +210,6 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-filterbutton",
-
     "templateOptions": {
         "modelIdProperty": "ModelID Property",
         "modelNameProperty": "ModelNameProperty",
@@ -271,7 +270,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-grid",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Grid",
         "columnDefs": {
@@ -291,7 +290,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "UIhours",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Hours",
         "ddlminutestep": "10",
@@ -307,7 +306,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-label",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "title": "Label",
         "label": "Label",
@@ -320,7 +319,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "maskedInput",
-
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "required": true,
         "label": "Masked Input",
@@ -338,6 +337,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "md-button",
+    "className": "pull-right no-horizontal-padding",
     "templateOptions": {
         "label": "Master Detail",
         "text": "Button Text",
@@ -355,6 +355,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-multiselect",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Multi Select",
         "buttonlabel": "name",
@@ -379,6 +380,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-radio",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "required": true,
         "label": "Radion Button",
@@ -420,6 +422,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-searchableDropdown",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "actualModel": "ActualKeyName",
         "label": "Searchable Dropdown",
@@ -446,6 +449,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-switch",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "Switch",
         "ngFalseValue": 0,
@@ -456,6 +460,7 @@
     "id": "FieldName",
     "key": "KeyName",
     "type": "ep-textarea",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "TextArea",
         "resize": "none",
@@ -470,11 +475,42 @@
     }
 },
 {
-    "key": "phone",
+    "key": "KeyName",
     "type": "ep-text",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
     "templateOptions": {
         "label": "TextBox",
+        "required": true
+    },
+    "validation": {
+        "messages": {
+            "required": "\"Required Validation\""
+        }
+    }
+},
+{
+    "key": "KeyName",
+    "type": "ep-text",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+    "templateOptions": {
+        "label": "TextBox-Phone",
         "validator": "Phone",
+        "required": true
+    },
+    "validation": {
+        "messages": {
+            "required": "\"Required Validation\"",
+            "pattern": "\"Pattern Validation\""
+        }
+    }
+},
+{
+    "key": "KeyName",
+    "type": "ep-text",
+    "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+    "templateOptions": {
+        "label": "TextBox-Email",
+        "validator": "Email",
         "required": true
     },
     "validation": {
