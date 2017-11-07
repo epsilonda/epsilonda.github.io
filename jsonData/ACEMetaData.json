@@ -251,14 +251,22 @@
         "enableSelectAll": true,
         "enablePaginationControls": true,
         "columnDefs": [{
-            "field": "FieldName",
-            "displayName": "ColumnDisplayName",
+            "field": "Action",
+            "displayName": "Action",
             "enableFiltering": false,
             "enableSorting": false,
             "width": "80",
-            "cellTemplate": "InnerHtml",
+            "cellTemplate": "<div class=\"col-xs-12 no-horizontal-padding text-center\"><button type=\"button\"class=\"btn btn-xs btn-primary\" id=\"{{ row.entity.OBJID }}\"ng-click=\"grid.appScope.formState.upsert(row.entity, 'UPDATE')\" ><span class=\"glyphicon glyphicon-pencil\"></span><span ng-bind-html=\"grid.appScope.to.editActionDisplay\"></span></button>&nbsp;<button type=\"button\"class=\"btn btn-danger btn-xs\" id=\"{{ row.entity.OBJID }}\"ng-click=\"grid.appScope.formState.deleteData(row.entity, 'DELETE', grid.appScope)\" ><span class=\"glyphicon glyphicon-trash\"></span><span ng-bind-html=\"grid.appScope.to.deleteActionDisplay\"></span></button></div>",
             "cellClass": "no-horizontal-padding"
-        }],
+        },
+        {
+            "field": "FieldName",
+            "displayName": "Column Display Name",
+            "enableFiltering": true,
+            "enableSorting": true,
+            "enableHiding": false,
+            "width": "200"
+          }],
         "editActionDisplay": "",
         "deleteActionDisplay": "",
         "addActionDisplay": "<i class=\"fa fa-plus-square bigger-110\"></i>&nbsp;Add Product",
