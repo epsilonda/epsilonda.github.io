@@ -2,22 +2,27 @@
     "key": "className",
     "desc": "this defines the class names to be assigned to the element",
     "tags": [{
-        "pull-right": "pull-right",
+        "text":"pull-right",
+        "val": "pull-right",
         "desc": "This is will pull the element to the right"
     }, {
-        "bs3-col-3": "col-xs-3 col-sm-3 col-md-3 col-lg-3",
+        "text":"bs3-col-3",
+        "val": "col-xs-3 col-sm-3 col-md-3 col-lg-3",
         "desc": "This is bootstrap's grid-column with width of 3 columns if the screen was divided into 12 columns"
     }]
 },{
     "key": "btnType",
     "desc": "this defines the class names to be assigned to the button to create primary, danger or info",
     "tags": [{
-        "val": "btn btn-primary",
+        "text":"bs3-default-button",
+        "val": "btn btn-default",
         "desc": "Default Button"
     },{
+        "text":"bs3-primary-button",
         "val": "btn btn-primary",
         "desc": "Primary Button"
     }, {
+        "text":"bs3-danger-button",
         "val": "btn btn-danger",
         "desc": "Danger Button"
     }]
