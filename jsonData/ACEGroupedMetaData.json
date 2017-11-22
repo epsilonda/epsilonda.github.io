@@ -3,6 +3,7 @@
             "id": "FieldName",
             "key": "keyName",
             "type": "ep-typeahead",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "AutoComplete",
@@ -17,6 +18,7 @@
         {
             "id": "FieldName",
             "type": "ep-button",
+            "wrapper": "configWrapper",
             "className": "pull-right",
             "templateOptions": {
                 "templateName": "Small Size Button",
@@ -29,6 +31,7 @@
         {
             "id": "FieldName",
             "type": "ep-button",
+            "wrapper": "configWrapper",
             "className": "pull-right",
             "templateOptions": {
                 "templateName": "Medium Size Button",
@@ -41,6 +44,7 @@
         {
             "id": "FieldName",
             "type": "ep-button",
+            "wrapper": "configWrapper",
             "className": "pull-right",
             "templateOptions": {
                 "templateName": "Large Size Button",
@@ -54,6 +58,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-checkbox",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Checkbox",
@@ -72,6 +77,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-checklist",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Checkbox List - Horizontal",
@@ -95,6 +101,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-checklist",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Checkbox List - Vertical",
@@ -118,6 +125,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-ckeditor",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "HTML Editor",
@@ -148,6 +156,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-datepicker",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Date Picker",
@@ -168,6 +177,7 @@
             "id": "FieldName",
             "key": "TempKeyName",
             "type": "ep-select",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Dropdown",
@@ -183,6 +193,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-editableselect",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Editable Dropdown",
@@ -205,6 +216,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-label",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Label",
@@ -219,6 +231,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-multiselect",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Multi Select",
@@ -233,6 +246,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-radio",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Radio Button List",
@@ -255,6 +269,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-searchableDropdown",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Searchable Dropdown",
@@ -283,6 +298,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-searchableDropdown",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Searchable Dropdown - With Options",
@@ -328,6 +344,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-switch",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Switch",
@@ -340,6 +357,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-textarea",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Text Area",
@@ -360,6 +378,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-textarea",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Text Area - Min & Max Length",
@@ -383,6 +402,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "TextBox - Min & Max Length",
@@ -403,6 +423,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Phone",
@@ -420,6 +441,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Email",
@@ -437,6 +459,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Zip",
@@ -454,6 +477,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "URL",
@@ -471,6 +495,7 @@
         {
             "key": "ipaddress",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "IP Address",
@@ -489,6 +514,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Price",
@@ -507,6 +533,7 @@
         {
             "key": "KeyName",
             "type": "ep-text",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "TextBox - Custom Validation",
@@ -526,6 +553,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "maskedInput",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "required": true,
@@ -549,6 +577,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-calendarEnrollDates",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Calendar Enroll Dates",
                 "label": "Calendar Enroll Dates",
@@ -572,6 +601,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-contextbutton",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Context Button List",
@@ -586,6 +616,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-contextbutton",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Context Button Edit",
@@ -602,6 +633,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-contextbutton",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Context Button Add",
@@ -615,6 +647,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-filterbutton",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Filter button",
                 "modelIdProperty": "ModelIDProperty",
@@ -640,6 +673,7 @@
         {
             "key": "formData",
             "type": "ep-genericcrud",
+            "wrapper": "configWrapper",
             "className": "col-md-12",
             "templateOptions": {
                 "templateName": "CRUD Form",
@@ -737,6 +771,7 @@
         {
             "key": "KeyName",
             "type": "UIhours",
+            "wrapper": "configWrapper",
             "id": "FieldName",
             "className": "col-sm-8 no-padding table-no-margin-bottom col-sm-4",
             "templateOptions": {
@@ -755,6 +790,7 @@
     "Layout Templates": [{
             "id": "FieldName",
             "type": "ep-collapseexpand",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Collapse Expand link Type",
                 "collapseText": "Collapse Text",
@@ -767,6 +803,7 @@
         {
             "id": "FieldName",
             "type": "ep-collapseexpand",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Collapse Expand Button Type",
                 "collapseText": "Collapse",
@@ -779,6 +816,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-grid",
+            "wrapper": "configWrapper",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Grid",
@@ -798,6 +836,7 @@
         {
             "key": "params.country",
             "type": "ep-picklist",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Pick List",
                 "label": "Country",
@@ -811,6 +850,7 @@
             "id": "FieldName",
             "key": "KeyName",
             "type": "ep-repeat",
+            "wrapper": "configWrapper",
             "templateOptions": {
                 "templateName": "Repeater",
                 "label": "Reperter",
