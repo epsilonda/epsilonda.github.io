@@ -2,7 +2,7 @@
         "id": "FieldName",
         "key": "keyName",
         "type": "ep-typeahead",
-
+        "wrapper": "configWrapper",
         "templateOptions": {
             "actualModel": "ModelName",
             "label": "AutoComplete",
@@ -29,6 +29,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-calendarEnrollDates",
+        "wrapper": "configWrapper",
         "templateOptions": {
             "label": "Calendar Enroll Dates",
             "title": "Calendar Enroll Dates",
@@ -51,6 +52,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-checkbox",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "ngModelAttrs": {
             "ngFalseValue": {
@@ -74,6 +76,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-checklist",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Check List",
@@ -96,7 +99,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-ckeditor",
-
+        "wrapper": "configWrapper",
         "templateOptions": {
             "required": true,
             "label": "CK Editor",
@@ -124,6 +127,7 @@
     {
         "id": "FieldName",
         "type": "ep-collapseexpand",
+        "wrapper": "configWrapper",
         "templateOptions": {
             "label": "Collapse Expand",
             "collapseText": "Collapse Text",
@@ -137,6 +141,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-contextbutton",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Context Button",
@@ -150,6 +155,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-datepicker",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "type": "text",
@@ -170,6 +176,7 @@
         "id": "FieldName",
         "key": "TempKeyName",
         "type": "ep-select",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "actualModel": "KeyName",
@@ -184,6 +191,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-editableselect",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Editable Dropdown",
@@ -211,6 +219,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-filterbutton",
+        "wrapper": "configWrapper",
         "templateOptions": {
             "modelIdProperty": "ModelID Property",
             "modelNameProperty": "ModelNameProperty",
@@ -236,7 +245,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-genericcrud",
-
+        "wrapper": "configWrapper",
         "templateOptions": {
             "label": "Generic CRUD",
             "enableFiltering": true,
@@ -280,6 +289,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-grid",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Grid",
@@ -300,6 +310,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "UIhours",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Hours",
@@ -316,6 +327,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-label",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "title": "Label",
@@ -329,6 +341,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "maskedInput",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "required": true,
@@ -347,6 +360,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "md-button",
+        "wrapper": "configWrapper",
         "className": "pull-right no-horizontal-padding",
         "templateOptions": {
             "label": "Master Detail",
@@ -365,6 +379,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-multiselect",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Multi Select",
@@ -378,6 +393,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-picklist",
+        "wrapper": "configWrapper",
         "templateOptions": {
             "label": "Pick List",
             "initKey": "IntiKey",
@@ -390,6 +406,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-radio",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "required": true,
@@ -411,6 +428,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-repeat",
+        "wrapper": "configWrapper",
         "templateOptions": {
             "label": "Reperter",
             "btnText": "ButtonText",
@@ -432,6 +450,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-searchableDropdown",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "actualModel": "ActualKeyName",
@@ -459,6 +478,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-switch",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "Switch",
@@ -470,6 +490,7 @@
         "id": "FieldName",
         "key": "KeyName",
         "type": "ep-textarea",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "TextArea",
@@ -487,6 +508,7 @@
     {
         "key": "KeyName",
         "type": "ep-text",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "TextBox",
@@ -501,6 +523,7 @@
     {
         "key": "KeyName",
         "type": "ep-text",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "TextBox-Phone",
@@ -517,6 +540,7 @@
     {
         "key": "KeyName",
         "type": "ep-text",
+        "wrapper": "configWrapper",
         "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
         "templateOptions": {
             "label": "TextBox-Email",
