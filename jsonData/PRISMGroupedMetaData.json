@@ -1,21 +1,5 @@
 {
-    "Singleton Templates": [{
-            "fieldGroup": [],
-            "className": "layout-column",
-            "templateOptions": {
-                "type": "Formly FieldGroup",
-                "label": "fieldgroup",
-                "templateType": "fieldgroup"
-            }
-        }, {
-            "fieldGroup": [],
-            "className": "layout-row",
-            "templateOptions": {
-                "type": "Formly FieldGroup",
-                "label": "fieldgroup-column-container",
-                "templateType": "fieldgroup-col"
-            }
-        },
+    "Singleton Templates": [
         {
             "template": "<div></div>"
         },
@@ -416,6 +400,22 @@
             }
         }
     ],
-    "Form Templates": [],
+    "Form Templates": [{
+        "fieldGroup": [],
+        "className": "layout-column",
+        "templateOptions": {
+            "type": "Formly FieldGroup",
+            "label": "fieldgroup",
+            "templateType": "fieldgroup"
+        }
+    }, {
+        "fieldGroup": [],
+        "className": "layout-row",
+        "templateOptions": {
+            "type": "Formly FieldGroup",
+            "label": "fieldgroup-column-container",
+            "templateType": "fieldgroup-col"
+        }
+    }],
     "Layout Templates": []
 }
