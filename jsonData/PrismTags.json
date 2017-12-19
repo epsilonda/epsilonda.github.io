@@ -1,0 +1,124 @@
+[
+    {
+      "key": "className",
+      "desc": "this defines the class names to be assigned to the element",
+      "tags": [
+        {
+          "text": "pull-right",
+          "val": "pull-right",
+          "desc": "This is will pull the element to the right"
+        },
+        {
+          "text": "bs3-col-3",
+          "val": "col-xs-3 col-sm-3 col-md-3 col-lg-3",
+          "desc": "This is bootstrap's grid-column with width of 3 columns if the screen was divided into 12 columns"
+        }
+      ]
+    },
+    {
+      "key": "btnType",
+      "desc": "this defines the class names to be assigned to the button to create primary, danger or info",
+      "tags": [
+        {
+          "text": "bs3-default-button",
+          "val": "btn btn-default",
+          "desc": "Default Button"
+        },
+        {
+          "text": "bs3-primary-button",
+          "val": "btn btn-primary",
+          "desc": "Primary Button"
+        },
+        {
+          "text": "bs3-danger-button",
+          "val": "btn btn-danger",
+          "desc": "Danger Button"
+        }
+      ]
+    },
+    {
+      "key": "directionclass",
+      "desc": "this defines the class names to be assigned vertical or horizonal checkbox list",
+      "tags": [
+        {
+          "text": "bs3-horizontal",
+          "val": "checkbox-inline",
+          "desc": "Checkbox List - Horizontal"
+        },
+        {
+          "text": "bs3-vertical",
+          "val": "checkbox",
+          "desc": "Checkbox List - Vertical"
+        }
+      ]
+    },
+    {
+      "key": "format",
+      "desc": "this defines different date formats",
+      "tags": [
+        {
+          "text": "MM/dd/yyyy",
+          "val": "MM/dd/yyyy",
+          "desc": "date in MM/dd/yyyy format"
+        },
+        {
+          "text": "YYYY/MM/DD",
+          "val": "YYYY/MM/DD",
+          "desc": "date in YYYY/MM/DD format"
+        },
+        {
+          "text": "DD-MM-YYYY",
+          "val": "DD-MM-YYYY",
+          "desc": "date in DD-MM-YYYY format"
+        }
+      ]
+    },
+    {
+      "key": "outputFormat",
+      "desc": "this defines different date formats",
+      "tags": [
+        {
+          "text": "MM/dd/yyyy",
+          "val": "MM/dd/yyyy",
+          "desc": "date in MM/dd/yyyy format"
+        },
+        {
+          "text": "YYYY/MM/DD",
+          "val": "YYYY/MM/DD",
+          "desc": "date in YYYY/MM/DD format"
+        },
+        {
+          "text": "DD-MM-YYYY",
+          "val": "DD-MM-YYYY",
+          "desc": "date in DD-MM-YYYY format"
+        }
+      ]
+    },
+    {
+      "key": "filterString",
+      "desc": "this defines different filters to be applied to ",
+      "tags": [
+        {
+          "text": "date format",
+          "val": "date:'MM/dd/yyyy hh:mm'",
+          "desc": "date format"
+        },
+        {
+          "text": "uppercase",
+          "val": "uppercase",
+          "desc": "uppercase"
+        },
+        {
+          "text": "lowercase",
+          "val": "lowercase",
+          "desc": "lowercase"
+        },
+        {
+          "text": "currency",
+          "val": "currency",
+          "desc": "currency"
+        }
+      ]
+    }
+  ]
+  
