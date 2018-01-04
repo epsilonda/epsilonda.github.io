@@ -510,7 +510,7 @@
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "TextBox - Custom Validation",
-                "label": "Phone",
+                "label": "Custom Text",
                 "validator": "Custom",
                 "regex": "^(\\(\\d{3}\\) )\\d{3}-\\d{4}$",
                 "placeholder": "(999) 999-9999"
