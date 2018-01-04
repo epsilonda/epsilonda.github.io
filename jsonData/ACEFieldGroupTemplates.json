@@ -7,7 +7,7 @@
             "wrapper": "configWrapper",
             "className": "col-sm-12 col-md-12 col-lg-12 no-horizontal-padding",
             "templateOptions": {
-                "templateName": "TextBox - Min & Max Length Text",
+                "templateName": "TextBox - Min & Max Length",
                 "label": "User name",
                 "required": true,
                 "minLength": "4",
