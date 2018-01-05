@@ -86,12 +86,7 @@
           "text": "YYYY/MM/DD",
           "val": "yyyy/MM/dd",
           "desc": "date in YYYY/MM/DD format"
-        },
-        {
-          "text": "DD-MM-YYYY",
-          "val": "dd-MM-yyyy",
-          "desc": "date in DD-MM-YYYY format"
-        }
+        }       
       ]
     },
     {

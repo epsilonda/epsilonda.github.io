@@ -423,7 +423,7 @@
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
                 "templateName": "Email",
-                "label": "Phone",
+                "label": "Email",
                 "validator": "Email",
                 "required": true
             },
