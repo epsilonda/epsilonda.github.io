@@ -1,64 +1,445 @@
 [{
 
-    "className": "col-sm-12 no-horizontal-padding",
-    "fieldGroup": [{
-            "key": "KeyName",
-            "type": "ep-text",
-            "wrapper": "configWrapper",
-            "className": "col-sm-12 col-md-12 col-lg-12 no-horizontal-padding",
-            "templateOptions": {
-                "templateName": "TextBox - Min & Max Length",
-                "label": "User name",
-                "required": true,
-                "minLength": "4",
-                "maxLength": 12,
-                "templateType": "field"
+        "className": "col-sm-12 no-horizontal-padding",
+        "fieldGroup": [{
+                "key": "KeyName",
+                "type": "ep-text",
+                "wrapper": "configWrapper",
+                "className": "col-sm-12 col-md-12 col-lg-12 no-horizontal-padding",
+                "templateOptions": {
+                    "templateName": "TextBox - Min & Max Length",
+                    "label": "User name",
+                    "required": true,
+                    "minLength": "4",
+                    "maxLength": 12,
+                    "templateType": "field"
+                },
+                "validation": {
+                    "messages": {
+                        "required": "\"Required Validation\"",
+                        "minlength": "\"Please enter minimim 5 Characters\"",
+                        "maxlength": "\"Maximum Characters of 12 has been reached\""
+                    }
+                }
             },
-            "validation": {
-                "messages": {
-                    "required": "\"Required Validation\"",
-                    "minlength": "\"Please enter minimim 5 Characters\"",
-                    "maxlength": "\"Maximum Characters of 12 has been reached\""
+            {
+                "key": "KeyName",
+                "type": "ep-text",
+                "wrapper": "configWrapper",
+                "className": "col-sm-12 col-md-12 col-lg-12 no-horizontal-padding",
+                "templateOptions": {
+                    "templateName": "TextBox - Custom Validation",
+                    "label": "Password",
+                    "templateType": "field",
+                    "type": "password",
+                    "required": true
+                },
+                "validation": {
+                    "messages": {
+                        "pattern": "\"Invalid Phone: Expected Formate:(999) 999-9999\"",
+                        "required": "\"Phone is required\""
+                    }
+                }
+            },
+            {
+                "id": "FieldName",
+                "type": "ep-button",
+                "wrapper": "configWrapper",
+                "className": "pull-right",
+                "templateOptions": {
+                    "templateName": "Small Size Button",
+                    "text": "Login",
+                    "onClick": "formState.submit(model)",
+                    "type": "button",
+                    "btnType": "btn btn-primary",
+                    "templateType": "field"
                 }
             }
-        },
-        {
-            "key": "KeyName",
-            "type": "ep-text",
-            "wrapper": "configWrapper",
-            "className": "col-sm-12 col-md-12 col-lg-12 no-horizontal-padding",
-            "templateOptions": {
-                "templateName": "TextBox - Custom Validation",
-                "label": "Password",
-                "templateType": "field",
-                "type": "password",
-                "required": true
-            },
-            "validation": {
-                "messages": {
-                    "pattern": "\"Invalid Phone: Expected Formate:(999) 999-9999\"",
-                    "required": "\"Phone is required\""
-                }
-            }
-        },
-        {
-            "id": "FieldName",
-            "type": "ep-button",
-            "wrapper": "configWrapper",
-            "className": "pull-right",
-            "templateOptions": {
-                "templateName": "Small Size Button",
-                "text": "Login",
-                "onClick": "formState.submit(model)",
-                "type": "button",
-                "btnType": "btn btn-primary",
-                "templateType": "field"
-            }
+        ],
+        "templateOptions": {
+            "templateName": "Login Field Group",
+            "templateType": "fieldgroup"
         }
-    ],
-    "templateOptions": {
-        "templateName": "Login Field Group",
-        "templateType": "fieldgroup"
-    }
 
-}]
+    },
+    {
+        "className": "col-xs-12 col-sm-12 col-md-12 no-horizontal-padding",
+        "fieldGroup": [{
+                "className": "col-xs-12 col-sm-12 col-md-12",
+                "$$hashKey": "id_fg1",
+                "fieldGroup": [{
+                        "id": "id_fg1_addButton",
+                        "className": "pull-right",
+                        "type": "ep-button",
+                        "templateOptions": {
+                            "text": "<div><i class=\"ace-icon fa fa-plus-square bigger-110\"></i>&nbsp;Add Country </div>",
+                            "onClick": "formState.upsert(undefined,'INSERT')",
+                            "type": "submit",
+                            "btnType": "btn btn-sm btn-primary",
+                            "title": "This button allows you to Add information"
+                        }
+                    },
+                    {
+                        "className": "pull-right no-horizontal-padding",
+                        "id": "id_fg1_activityButton",
+                        "type": "md-button",
+                        "templateOptions": {
+                            "text": "<i class=\"fa fa-eye bigger-110\"></i>&nbsp;Activity Log",
+                            "type": "submit",
+                            "formName": "ActivityEntry",
+                            "programName": "Olca",
+                            "btnType": "primary btn-sm",
+                            "ActivityFormName": "Country",
+                            "action": "LIST",
+                            "title": "This button allows you to view the Activity Log",
+                            "modalHeader": "Activity Entries"
+                        },
+                        "hideExpression": "!model.formData"
+                    }
+                ]
+            },
+            {
+                "id": "id_htmlTemplate",
+                "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+            },
+            {
+                "id": "id_grid",
+                "key": "formData",
+                "type": "ep-genericcrud",
+                "className": "col-md-12",
+                "templateOptions": {
+                    "label": "Country",
+                    "enableFiltering": true,
+                    "enableSorting": true,
+                    "enableColumnResizing": true,
+                    "enableHiding": true,
+                    "paginationPageSizes": [
+                        15,
+                        25,
+                        50
+                    ],
+                    "paginationPageSize": 15,
+                    "enableRowSelection": true,
+                    "enableSelectAll": true,
+                    "enablePaginationControls": true,
+                    "addActionDisplay": "<i class=\"fa fa-plus-square bigger-110\"></i> &nbsp;Add Country",
+                    "columnDefs": [{
+                            "field": "Action",
+                            "displayName": "Action",
+                            "enableFiltering": false,
+                            "enableSorting": false,
+                            "width": "80",
+                            "pinnedLeft": true,
+                            "cellTemplate": "<div class=\"col-xs-12 no-horizontal-padding text-center\"><button type=\"button\"class=\"btn btn-xs btn-primary\" id=\"{{ row.entity.OBJID }}\"ng-click=\"grid.appScope.formState.upsert(row.entity, 'UPDATE')\"  title=\"This button allows you to Edit information\"><span class=\"glyphicon glyphicon-pencil\"></span><span ng-bind-html=\"grid.appScope.to.editActionDisplay\"></span></button>&nbsp;<button type=\"button\"class=\"btn btn-danger btn-xs\" id=\"{{ row.entity.OBJID }}\"ng-click=\"grid.appScope.formState.deleteData(row.entity, 'DELETE', grid.appScope)\" title=\"This button allows you to Delete information\" ><span class=\"glyphicon glyphicon-trash\"></span><span ng-bind-html=\"grid.appScope.to.editActionDisplay\"></span></button></div>",
+                            "cellClass": "no-horizontal-padding"
+                        },
+                        {
+                            "field": "NAME",
+                            "displayName": "Country Name",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "250",
+                            "enablePinning": true
+                        },
+                        {
+                            "field": "CODE",
+                            "displayName": "Country Code",
+                            "visible": true,
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "125"
+                        },
+                        {
+                            "field": "CURRENCY_NAME",
+                            "displayName": "Currency",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "250"
+                        },
+                        {
+                            "field": "CREATOR",
+                            "displayName": "Created By",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "120"
+                        },
+                        {
+                            "field": "CREATEDATE",
+                            "displayName": "Date Created",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "160",
+                            "cellFilter": "date:\"MM/dd/yyyy hh:mm a\""
+                        },
+                        {
+                            "field": "MODIFIER",
+                            "displayName": "Modified By",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "120"
+                        },
+                        {
+                            "field": "MODDATE",
+                            "displayName": "Date Modified",
+                            "enableFiltering": true,
+                            "enableSorting": true,
+                            "enableHiding": false,
+                            "width": "160",
+                            "cellFilter": "date:\"MM/dd/yyyy hh:mm a\""
+                        }
+                    ],
+                    "evenRowBGColor": "#fdfdfd",
+                    "oddRowBGColor": "#eeeeee",
+                    "editActionDisplay": "",
+                    "deleteActionDisplay": "",
+                    "primaryid": "OBJID",
+                    "editFormHeader": "Country"
+                }
+            }
+        ],
+        "templateOptions": {
+            "templateName": "Currency Main",
+            "templateType": "fieldgroup"
+        }
+    },{
+        "className": "col-xs-12 col-sm-12 col-md-12 no-horizontal-padding",
+        "fieldGroup":[{
+            "id": "id_CountryName",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "key": "NAME",
+            "type": "ep-text",
+            "templateOptions": {
+              "label": "Country Name ",
+              "maxLength": 40,
+              "required": true
+            },
+            "validation": {
+              "messages": {
+                "required": "\"Country Name required\""
+              }
+            }
+          },
+          {
+            "id": "id_CountryCode",
+            "key": "CODE",
+            "type": "ep-text",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "label": "Country Code",
+              "maxLength": 5,
+              "validator": "integer",
+              "required": true
+            },
+            "validation": {
+              "messages": {
+                "required": "\"Country Code required\"",
+                "pattern": "\"Invalid Country Code\""
+              }
+            }
+          },
+          {
+            "id": "id_htmlTemplate1",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "key": "IS_DEFAULT",
+            "type": "ep-switch",
+            "id": "id_IS_DEFAULT",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "label": "Is Country Default?",
+              "ngFalseValue": 0,
+              "ngTrueValue": 1
+            }
+          },
+          {
+            "key": "COUNTRY2CURRENCY1",
+            "type": "ep-searchableDropdown",
+            "id": "id_currencyDropdown",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "actualModel": "COUNTRY2CURRENCY",
+              "label": "Currency Name",
+              "searchableinitKey": "Currency",
+              "valueProp": "CURRENCY_OBJID",
+              "labelProp": "CURRENCY_NAME",
+              "searchContains": true,
+              "enableContextButton": true,
+              "contextButtonAction": "GET",
+              "contextButtonText": "..."
+            }
+          },
+          {
+            "id": "id_htmlTemplate2",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "id": "id_ISOChar2",
+            "key": "ISO_CHAR2",
+            "type": "ep-text",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "label": "ISO_CHAR2",
+              "maxLength": 2
+            }
+          },
+          {
+            "id": "id_ISOChar3",
+            "key": "ISO_CHAR3",
+            "type": "ep-text",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "label": "ISO CHAR3",
+              "maxLength": 3
+            }
+          },
+          {
+            "id": "id_htmlTemplate3",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "id": "id_ISONum",
+            "key": "ISO_NUM",
+            "type": "ep-text",
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "templateOptions": {
+              "label": "ISO NUM",
+              "maxLength": 5,
+              "validator": "integer"
+            },
+            "validation": {
+              "messages": {
+                "pattern": "\"Invalid ISO NUM\""
+              }
+            }
+          },
+          {
+            "id": "id_htmlTemplate4",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "key": "CREATOR",
+            "type": "ep-label",
+            "id": "id_CreateBy",
+            "className": "col-md-6 col-lg-6  no-horizontal-padding",
+            "templateOptions": {
+              "title": "Created By",
+              "label": "Created By"
+            },
+            "expressionProperties": {
+              "templateOptions.hide": "!model.OBJID || formState.isAdd"
+            }
+          },
+          {
+            "key": "CREATEDATE",
+            "type": "ep-label",
+            "id": "id_CreateDate",
+            "className": "col-md-6 col-lg-6  no-horizontal-padding",
+            "templateOptions": {
+              "title": "Created Date",
+              "filterString": "date : \"MM/dd/yyyy hh:mm a\"",
+              "label": "Created Date"
+            },
+            "expressionProperties": {
+              "templateOptions.hide": "!model.OBJID || formState.isAdd"
+            }
+          },
+          {
+            "id": "id_htmlTemplate5",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "key": "MODIFIER",
+            "type": "ep-label",
+            "id": "id_ModifiedBy",
+            "className": "col-md-6 col-lg-6  no-horizontal-padding",
+            "templateOptions": {
+              "title": "Modified By",
+              "label": "Modified By"
+            },
+            "expressionProperties": {
+              "templateOptions.hide": "!model.OBJID || formState.isAdd"
+            }
+          },
+          {
+            "key": "MODDATE",
+            "type": "ep-label",
+            "id": "id_ModifiedDate",
+            "className": "col-md-6 col-lg-6  no-horizontal-padding",
+            "templateOptions": {
+              "title": "Modified Date",
+              "filterString": "date : \"MM/dd/yyyy hh:mm a\"",
+              "label": "Modified Date"
+            },
+            "expressionProperties": {
+              "templateOptions.hide": "!model.OBJID || formState.isAdd"
+            }
+          },
+          {
+            "id": "id_htmlTemplate6",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+          },
+          {
+            "className": "col-xs-12 col-sm-12",
+            "$$hashKey": "id_fg2",
+            "fieldGroup": [
+              {
+                "className": "pull-right",
+                "id": "id_closeButton",
+                "type": "ep-button",
+                "templateOptions": {
+                  "text": "<i class=\"ace-icon fa fa-close bigger-110\"></i>&nbsp;Close",
+                  "onClick": "formState.close(model,this.form)",
+                  "type": "submit",
+                  "btnType": "btn btn-sm btn-primary",
+                  "title": "This button allows you to Close information"
+                }
+              },
+              {
+                "className": "pull-right",
+                "id": "id_saveButton",
+                "type": "ep-button",
+                "templateOptions": {
+                  "text": "<i class=\"ace-icon fa fa-save\"></i>&nbsp;Save",
+                  "onClick": "formState.upsertData(model,this.form, true)",
+                  "type": "submit",
+                  "btnType": "btn btn-sm btn-primary",
+                  "title": "This button allows you to Save information"
+                }
+              },
+              {
+                "className": "pull-right no-horizontal-padding",
+                "id": "id_activityButton",
+                "type": "md-button",
+                "key": "OBJID",
+                "templateOptions": {
+                  "text": "<i class=\"fa fa-eye bigger-110\"></i>&nbsp;Activity Log",
+                  "type": "submit",
+                  "formName": "ActivityEntry",
+                  "programName": "Olca",
+                  "btnType": "primary btn-sm",
+                  "childFKName": "header_objid",
+                  "ActivityFormName": "Country",
+                  "action": "LIST",
+                  "title": "This button allows you to View Activity log",
+                  "modalHeader": "Activity Entries"
+                },
+                "expressionProperties": {
+                  "templateOptions.childFKObjid": "model.OBJID"
+                },
+                "hideExpression": "!model.OBJID"
+              }
+            ]
+          }],
+        "templateOptions": {
+            "templateName": "Currency Modal",
+            "templateType": "fieldgroup"
+        }
+    }
+]
