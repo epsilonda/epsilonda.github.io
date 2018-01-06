@@ -1,7 +1,7 @@
 {
     "Singleton Templates": [{
-            "id": "FieldName",
-            "key": "keyName",
+            "id": "id_autocomplete",
+            "key": "key_autocomplete",
             "type": "ep-typeahead",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -15,7 +15,7 @@
             }
         },
         {
-            "id": "FieldName",
+            "id": "id_button_sm",
             "type": "ep-button",
             "className": "pull-right",
             "templateOptions": {
@@ -27,7 +27,7 @@
             }
         },
         {
-            "id": "FieldName",
+            "id": "id_button_md",
             "type": "ep-button",
             "className": "pull-right",
             "templateOptions": {
@@ -39,7 +39,7 @@
             }
         },
         {
-            "id": "FieldName",
+            "id": "id_button_lg",
             "type": "ep-button",
             "className": "pull-right",
             "templateOptions": {
@@ -51,16 +51,16 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_checkbox",
+            "key": "key_checkbox",
             "type": "ep-checkbox",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
-                "templateName": "Checkbox",
-                "required": true,
-                "label": "CheckBox",
+                "templateName": "Checkbox",               
+                "label": "CheckBox",                
                 "ngFalseValue": "false",
-                "ngTrueValue": "true"
+                "ngTrueValue": "true",
+                "required": true
             },
             "validation": {
                 "messages": {
@@ -69,8 +69,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_checklist_h",
+            "key": "key_checklist_h",
             "type": "ep-checklist",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -92,8 +92,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_checklist_v",
+            "key": "key_checklist_v",
             "type": "ep-checklist",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -115,8 +115,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_htmleditor",
+            "key": "key_htmleditor",
             "type": "ep-ckeditor",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -145,8 +145,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_datepicker",
+            "key": "key_datepicker",
             "type": "ep-datepicker",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -165,8 +165,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "TempKeyName",
+            "id": "id_dropdown",
+            "key": "key_dropdown",
             "type": "ep-select",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -174,14 +174,21 @@
                 "actualModel": "KeyName",
                 "label": "Dropdown",
                 "initKey": "InitKeyName",
-                "options": [],
-                "valueProp": "S_NAME",
-                "labelProp": "S_NAME"
+                "options": [
+                    {"NAME":"OPTION 1", "VALUE":"1"},
+                    {"NAME":"OPTION 2", "VALUE":"2"},
+                    {"NAME":"OPTION 3", "VALUE":"3"},
+                    {"NAME":"OPTION 4", "VALUE":"4"},
+                    {"NAME":"OPTION 5", "VALUE":"5"},
+                    {"NAME":"OPTION 6", "VALUE":"6"}
+                ],
+                "valueProp": "VALUE",
+                "labelProp": "NAME"
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_editable_dropdown",
+            "key": "key_editable_dropdown",
             "type": "ep-editableselect",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -202,8 +209,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_label",
+            "key": "key_label",
             "type": "ep-label",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -216,8 +223,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_multiselect",
+            "key": "key_multiselect",
             "type": "ep-multiselect",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -230,8 +237,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_radiobtn_list",
+            "key": "key_radiobtn_list",
             "type": "ep-radio",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -252,8 +259,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_searchable_dropdown_edit",
+            "key": "key_searchable_dropdown_edit",
             "type": "ep-searchableDropdown",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -280,8 +287,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_searchable_dropdown",
+            "key": "key_searchable_dropdown",
             "type": "ep-searchableDropdown",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -325,8 +332,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_switch",
+            "key": "key_switch",
             "type": "ep-switch",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -337,8 +344,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_textarea",
+            "key": "key_textarea",
             "type": "ep-textarea",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -357,8 +364,8 @@
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_textarea_minmax",
+            "key": "key_textarea_minmax",
             "type": "ep-textarea",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -381,7 +388,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_minmax",
+            "key": "key_textbox_minmax",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -401,7 +409,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_phone",
+            "key": "key_textbox_phone",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -418,7 +427,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_email",
+            "key": "key_textbox_email",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -435,7 +445,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_zip",
+            "key": "key_textbox_zip",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -452,7 +463,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_url",
+            "key": "key_textbox_url",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -469,7 +481,8 @@
             }
         },
         {
-            "key": "ipaddress",
+            "id":"id_textbox_ipaddress",
+            "key": "key_textbox_ipaddress",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -487,7 +500,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_price",
+            "key": "key_textbox_price",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -505,7 +519,8 @@
             }
         },
         {
-            "key": "KeyName",
+            "id":"id_textbox_custom",
+            "key": "key_textbox_custom",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
@@ -518,13 +533,13 @@
             "validation": {
                 "messages": {
                     "pattern": "\"Invalid Phone: Expected Formate:(999) 999-9999\"",
-                    "required": "\"Phone is required\""
+                    "required": "\"Please enter a value\""
                 }
             }
         },
         {
-            "id": "FieldName",
-            "key": "KeyName",
+            "id": "id_maskedinput",
+            "key": "key_maskedinput",
             "type": "maskedInput",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
