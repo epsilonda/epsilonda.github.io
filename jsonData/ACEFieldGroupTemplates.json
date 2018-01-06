@@ -608,7 +608,7 @@
             }
         ],
         "templateOptions": {
-            "templateName": "DemoContacts Modal",
+            "templateName": "DemoContacts Main",
             "templateType": "fieldgroup"
         }
     },
