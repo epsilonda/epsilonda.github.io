@@ -204,7 +204,7 @@
             }
         ],
         "templateOptions": {
-            "templateName": "Currency Main",
+            "templateName": "Country Main",
             "templateType": "fieldgroup"
         }
     }, {
@@ -438,7 +438,7 @@
             }
         ],
         "templateOptions": {
-            "templateName": "Currency Modal",
+            "templateName": "Country Modal",
             "templateType": "fieldgroup"
         }
     },
