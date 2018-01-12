@@ -1,0 +1,929 @@
+[
+  {
+    "enrollmentId": 1,
+    "enrollmentWindow": {
+      "enrollmentId": null,
+      "enrollmentName": "May - Jun",
+      "start": "2017-01-01T00:00:00+0000",
+      "visualStart": "Feb 06 2017",
+      "end": "2017-03-01T00:59:59+0000",
+      "visualEnd": "Feb 24 2017",
+      "published": true
+    },
+    "costPerMailDM": 52,
+    "costPerMailEM": 52,
+    "includeMap": true,
+    "includeLogo": true,
+    "locked": true,
+    "segments": [
+      {
+        "maxOffers": 8,
+        "segmentId": 1,
+        "active": true,
+        "segmentName": "New Owners",
+        "segmentSubtitle": "FIRST 18 MONTHS IN SERVICE OR LEASE VEHICLE",
+        "couponSlots": 6,
+        "segmentCountDM": 289,
+        "segmentCountEM": 289,
+        "capping": {
+          "enabled": false,
+          "cap": 0
+        },
+        "offers": [
+          {
+            "position": 1,
+            "offerType": "NationalOffer",
+            "slotId": 0,
+            "couponId": 0,
+            "copy": "$10 Off Synthetic Oil Change"
+          },
+          {
+            "position": 2,
+            "offerType": "NationalOffer",
+            "slotId": 1,
+            "couponId": 0,
+            "copy": "Complimentary MPI (27 pt)"
+          },
+          {
+            "position": 3,
+            "offerType": "DefaultOffer",
+            "couponValue": 19.95,
+            "couponType": 4,
+            "couponId": 135,
+            "couponName": "Nissan Value Advantage Air Filter",
+            "couponSubtitle": "CLEAN. EFFICIENT. AFFORDABLE.",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Applications available for most Nissan vehicles, three or more model-years old. Limited time offer. All other parts, services and taxes extra. See dealer for details. 370Z® & ‘07/’08 350Z® models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1VAD3",
+            "couponOpCode": "VAD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 3000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 1000,
+                  "max": 5000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 4,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 101,
+            "couponName": "Oil & Filter plus Tire Rotation",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Oil & Filter": true,
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Add up to 5 quarts of motor oil (per specification)</LI><LI>Check and adjust tire pressure</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. Excludes diesel models. See offer disclosure for more information.* Using Genuine Nissan Oil Filter and multigrade oil up to vehicle specification. Lube as necessary. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. Offer excludes Nissan Z® and GT-R®. No cash value.",
+            "couponCode": "N1OLF2",
+            "couponOpCode": "OLF2",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 300,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 2000,
+                  "max": 10000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 5,
+            "offerType": "DefaultOffer",
+            "couponValue": 74.95,
+            "couponType": 2,
+            "couponId": 60,
+            "couponName": "Computerized Wheel Alignment",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* No cash value.",
+            "couponCode": "N1ALI1",
+            "couponOpCode": "ALI1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 500,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 4000,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 6,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 94,
+            "couponName": "Genuine Nissan Microfilter",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Manufacturer recommends replacement every 15,000 miles</LI><LI>Filters outside and recirculated air introduced by the air conditioning system</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* 370Z&#174 & ‘07/’08 350Z&#174 models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1MCF1",
+            "couponOpCode": "MCF1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 3000,
+                  "max": 15000
+                }
+              }
+            },
+            "couponActive": true
+          }
+        ],
+        "loPerUser": 28.5114,
+        "approved": true
+      },
+      {
+        "maxOffers": 8,
+        "segmentId": 2,
+        "active": true,
+        "segmentName": "Retained",
+        "segmentSubtitle": "Retained - 2+ visits in past 12 months OR most likely to return for service",
+        "couponSlots": 6,
+        "segmentCountDM": 587,
+        "segmentCountEM": 588,
+        "capping": {
+          "enabled": false,
+          "cap": 0
+        },
+        "offers": [
+          {
+            "position": 1,
+            "offerType": "NationalOffer",
+            "slotId": 0,
+            "couponId": 0,
+            "copy": "$10 Off Synthetic Oil Change"
+          },
+          {
+            "position": 2,
+            "offerType": "NationalOffer",
+            "slotId": 1,
+            "couponId": 0,
+            "copy": "Complimentary MPI (27 pt)"
+          },
+          {
+            "position": 3,
+            "offerType": "DefaultOffer",
+            "couponValue": 19.95,
+            "couponType": 2,
+            "couponId": 135,
+            "couponName": "Nissan Value Advantage Air Filter",
+            "couponSubtitle": "CLEAN. EFFICIENT. AFFORDABLE.",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Applications available for most Nissan vehicles, three or more model-years old. Limited time offer. All other parts, services and taxes extra. See dealer for details. 370Z® & ‘07/’08 350Z® models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1VAD3",
+            "couponOpCode": "VAD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 3000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 1000,
+                  "max": 5000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 4,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 101,
+            "couponName": "Oil & Filter plus Tire Rotation",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Oil & Filter": true,
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Add up to 5 quarts of motor oil (per specification)</LI><LI>Check and adjust tire pressure</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. Excludes diesel models. See offer disclosure for more information.* Using Genuine Nissan Oil Filter and multigrade oil up to vehicle specification. Lube as necessary. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. Offer excludes Nissan Z® and GT-R®. No cash value.",
+            "couponCode": "N1OLF2",
+            "couponOpCode": "OLF2",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 300,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 2000,
+                  "max": 10000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 5,
+            "offerType": "DefaultOffer",
+            "couponValue": 74.95,
+            "couponType": 2,
+            "couponId": 60,
+            "couponName": "Computerized Wheel Alignment",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* No cash value.",
+            "couponCode": "N1ALI1",
+            "couponOpCode": "ALI1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 500,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 4000,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 6,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 90,
+            "couponName": "Generic MRS",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Manufacturer Recommended Services": true
+            },
+            "couponBody": "<P>Preventative scheduled maintenance is an important investment to help optimize the performance, safety features and resale value of your Nissan.</P>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Offer only applies to Manufacturer's Recommended Scheduled Maintenance services. See owner's manual for maintenance schedule details. No cash value.",
+            "couponCode": "N1MRS6",
+            "couponOpCode": "MRS6",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 1000,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 10,
+                  "max": 50
+                }
+              }
+            },
+            "couponActive": true
+          }
+        ],
+        "loPerUser": 58.6551,
+        "approved": true
+      },
+      {
+        "maxOffers": 8,
+        "segmentId": 3,
+        "active": true,
+        "segmentName": "At Risk",
+        "segmentSubtitle": "At Risk - 1 visit in the past 9 months OR moving out of warranty OR most likely to defect",
+        "couponSlots": 7,
+        "segmentCountDM": 527,
+        "segmentCountEM": 528,
+        "capping": {
+          "enabled": false,
+          "cap": 0
+        },
+        "offers": [
+          {
+            "position": 1,
+            "offerType": "NationalOffer",
+            "slotId": 0,
+            "couponId": 0,
+            "copy": "$10 Off Synthetic Oil Change"
+          },
+          {
+            "position": 2,
+            "offerType": "NationalOffer",
+            "slotId": 1,
+            "couponId": 0,
+            "copy": "Complimentary MPI (27 pt)"
+          },
+          {
+            "position": 3,
+            "offerType": "DefaultOffer",
+            "couponValue": 19.95,
+            "couponType": 2,
+            "couponId": 135,
+            "couponName": "Nissan Value Advantage Air Filter",
+            "couponSubtitle": "CLEAN. EFFICIENT. AFFORDABLE.",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Applications available for most Nissan vehicles, three or more model-years old. Limited time offer. All other parts, services and taxes extra. See dealer for details. 370Z® & ‘07/’08 350Z® models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1VAD3",
+            "couponOpCode": "VAD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 3000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 1000,
+                  "max": 5000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 4,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 101,
+            "couponName": "Oil & Filter plus Tire Rotation",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Oil & Filter": true,
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Add up to 5 quarts of motor oil (per specification)</LI><LI>Check and adjust tire pressure</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. Excludes diesel models. See offer disclosure for more information.* Using Genuine Nissan Oil Filter and multigrade oil up to vehicle specification. Lube as necessary. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. Offer excludes Nissan Z® and GT-R®. No cash value.",
+            "couponCode": "N1OLF2",
+            "couponOpCode": "OLF2",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 300,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 2000,
+                  "max": 10000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 5,
+            "offerType": "DefaultOffer",
+            "couponValue": 69.95,
+            "couponType": 2,
+            "couponId": 60,
+            "couponName": "Computerized Wheel Alignment",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* No cash value.",
+            "couponCode": "N1ALI1",
+            "couponOpCode": "ALI1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 500,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 4000,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 6,
+            "offerType": "DefaultOffer",
+            "couponValue": 0,
+            "couponType": 2,
+            "couponId": 79,
+            "couponName": "Parts & Labor Bonus Grid Offer 15% off each $100",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "General Services Discount": true
+            },
+            "couponBody": "<TABLE><tr><th>SPEND</th><th>SAVE</th></tr><tr><td>$100.00 - $199.99</td><td>$15.00</td></tr><tr><td>$200.00 - $299.99</td><td>$30.00</td></tr><tr><td>$300.00 - $399.99</td><td>$45.00</td></tr><tr><td>$400.00 - $499.99</td><td>$60.00</td></tr><tr><td>$500.00 or more</td><td>$75.00</td></tr></TABLE>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Offer only applies to services that include labor. Discount based on individual dealer's pricing guide. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. No cash value.",
+            "couponCode": "N1GSD3",
+            "couponOpCode": "GSD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "5": null
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 7,
+            "offerType": "DefaultOffer",
+            "couponValue": 12.95,
+            "couponType": 2,
+            "couponId": 146,
+            "couponName": "Value Adv. Brake Service Special (2 Prices)",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Brakes": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Value Advantage® Brake Pads and Rotors are Nissan-approved brake pads and rotors for Nissan vehicles, model years between 1995 and 2013. Excludes some models. All other parts, services and taxes are extra. Please see dealer for details. Excludes Brembo® Brakes. No cash value.",
+            "couponCode": "N2VAD6",
+            "couponOpCode": "VAD6",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads. Resurfacing of rotors may be recommended at an additional cost.": {
+                "4": {
+                  "min": 4800,
+                  "max": 25000
+                }
+              },
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads and Nissan Value Advantage® Brake Rotors.": {
+                "4": {
+                  "min": 14800,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          }
+        ],
+        "loPerUser": 30.2564,
+        "approved": true
+      },
+      {
+        "maxOffers": 8,
+        "segmentId": 4,
+        "active": true,
+        "segmentName": "Recapture",
+        "segmentSubtitle": "Recapture - No CP Visit in the past 9 months OR least likely to return for service",
+        "couponSlots": 7,
+        "segmentCountDM": 788,
+        "segmentCountEM": 789,
+        "capping": {
+          "enabled": false,
+          "cap": 0
+        },
+        "offers": [
+          {
+            "position": 1,
+            "offerType": "NationalOffer",
+            "slotId": 0,
+            "couponId": 0,
+            "copy": "$10 Off Synthetic Oil Change"
+          },
+          {
+            "position": 2,
+            "offerType": "NationalOffer",
+            "slotId": 1,
+            "couponId": 0,
+            "copy": "Complimentary MPI (27 pt)"
+          },
+          {
+            "position": 3,
+            "offerType": "DefaultOffer",
+            "couponValue": 70,
+            "couponType": 2,
+            "couponId": 135,
+            "couponName": "Nissan Value Advantage Air Filter",
+            "couponSubtitle": "CLEAN. EFFICIENT. AFFORDABLE.",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Applications available for most Nissan vehicles, three or more model-years old. Limited time offer. All other parts, services and taxes extra. See dealer for details. 370Z® & ‘07/’08 350Z® models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1VAD3",
+            "couponOpCode": "VAD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 3000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 1000,
+                  "max": 5000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 4,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 101,
+            "couponName": "Oil & Filter plus Tire Rotation",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Oil & Filter": true,
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Add up to 5 quarts of motor oil (per specification)</LI><LI>Check and adjust tire pressure</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. Excludes diesel models. See offer disclosure for more information.* Using Genuine Nissan Oil Filter and multigrade oil up to vehicle specification. Lube as necessary. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. Offer excludes Nissan Z® and GT-R®. No cash value.",
+            "couponCode": "N1OLF2",
+            "couponOpCode": "OLF2",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 300,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 2000,
+                  "max": 10000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 5,
+            "offerType": "DefaultOffer",
+            "couponValue": 69.95,
+            "couponType": 2,
+            "couponId": 60,
+            "couponName": "Computerized Wheel Alignment",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* No cash value.",
+            "couponCode": "N1ALI1",
+            "couponOpCode": "ALI1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 500,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 4000,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 6,
+            "offerType": "DefaultOffer",
+            "couponValue": 0,
+            "couponType": 2,
+            "couponId": 79,
+            "couponName": "Parts & Labor Bonus Grid Offer 15% off each $100",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "General Services Discount": true
+            },
+            "couponBody": "<TABLE><tr><th>SPEND</th><th>SAVE</th></tr><tr><td>$100.00 - $199.99</td><td>$15.00</td></tr><tr><td>$200.00 - $299.99</td><td>$30.00</td></tr><tr><td>$300.00 - $399.99</td><td>$45.00</td></tr><tr><td>$400.00 - $499.99</td><td>$60.00</td></tr><tr><td>$500.00 or more</td><td>$75.00</td></tr></TABLE>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Offer only applies to services that include labor. Discount based on individual dealer's pricing guide. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. No cash value.",
+            "couponCode": "N1GSD3",
+            "couponOpCode": "GSD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "5": null
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 7,
+            "offerType": "DefaultOffer",
+            "couponValue": 12.95,
+            "couponValue1": 27.95,
+            "couponType": 2,
+            "couponId": 146,
+            "couponName": "Value Adv. Brake Service Special (2 Prices)",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Brakes": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Value Advantage® Brake Pads and Rotors are Nissan-approved brake pads and rotors for Nissan vehicles, model years between 1995 and 2013. Excludes some models. All other parts, services and taxes are extra. Please see dealer for details. Excludes Brembo® Brakes. No cash value.",
+            "couponCode": "N2VAD6",
+            "couponOpCode": "VAD6",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads. Resurfacing of rotors may be recommended at an additional cost.": {
+                "4": {
+                  "min": 4800,
+                  "max": 25000
+                }
+              },
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads and Nissan Value Advantage® Brake Rotors.": {
+                "4": {
+                  "min": 14800,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          }
+        ],
+        "loPerUser": 17.9801,
+        "approved": true
+      },
+      {
+        "maxOffers": 8,
+        "segmentId": 5,
+        "active": true,
+        "segmentName": "8+ VINs",
+        "segmentSubtitle": "8+ - VINS that have been in service for 8+ years with 1 or less CP visits in the last 9 months",
+        "couponSlots": 7,
+        "segmentCountDM": 656,
+        "segmentCountEM": 656,
+        "capping": {
+          "enabled": false,
+          "cap": 0
+        },
+        "offers": [
+          {
+            "position": 1,
+            "offerType": "NationalOffer",
+            "slotId": 0,
+            "couponId": 0,
+            "copy": "$10 Off Synthetic Oil Change"
+          },
+          {
+            "position": 2,
+            "offerType": "NationalOffer",
+            "slotId": 1,
+            "couponId": 0,
+            "copy": "Complimentary MPI (27 pt)"
+          },
+          {
+            "position": 3,
+            "offerType": "DefaultOffer",
+            "couponValue": 70,
+            "couponType": 2,
+            "couponId": 135,
+            "couponName": "Nissan Value Advantage Air Filter",
+            "couponSubtitle": "CLEAN. EFFICIENT. AFFORDABLE.",
+            "couponCategory": {
+              "Air Filters": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Applications available for most Nissan vehicles, three or more model-years old. Limited time offer. All other parts, services and taxes extra. See dealer for details. 370Z® & ‘07/’08 350Z® models are excluded from air filter replacement offer. No cash value.",
+            "couponCode": "N1VAD3",
+            "couponOpCode": "VAD3",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 200,
+                  "max": 3000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 1000,
+                  "max": 5000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 4,
+            "offerType": "DefaultOffer",
+            "couponValue": 10,
+            "couponType": 2,
+            "couponId": 101,
+            "couponName": "Oil & Filter plus Tire Rotation",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Oil & Filter": true,
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Add up to 5 quarts of motor oil (per specification)</LI><LI>Check and adjust tire pressure</LI><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. Excludes diesel models. See offer disclosure for more information.* Using Genuine Nissan Oil Filter and multigrade oil up to vehicle specification. Lube as necessary. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. Offer excludes Nissan Z® and GT-R®. No cash value.",
+            "couponCode": "N1OLF2",
+            "couponOpCode": "OLF2",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 300,
+                  "max": 5000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 2000,
+                  "max": 10000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 5,
+            "offerType": "DefaultOffer",
+            "couponValue": 69.95,
+            "couponType": 2,
+            "couponId": 60,
+            "couponName": "Computerized Wheel Alignment",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Tires, Alignment and Suspension": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* No cash value.",
+            "couponCode": "N1ALI1",
+            "couponOpCode": "ALI1",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "2": {
+                  "min": 500,
+                  "max": 10000
+                },
+                "3": {
+                  "min": 5,
+                  "max": 30
+                },
+                "4": {
+                  "min": 4000,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 6,
+            "offerType": "DefaultOffer",
+            "couponValue": 0,
+            "couponType": 2,
+            "couponId": 81,
+            "couponName": "Parts & Labor Bonus Grid Offer 20% off each $100",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "General Services Discount": true
+            },
+            "couponBody": "<TABLE><tr><th>SPEND</th><th>SAVE</th></tr><tr><td>$100.00 - $199.99</td><td>$20.00</td></tr><tr><td>$200.00 - $299.99</td><td>$40.00</td></tr><tr><td>$300.00 - $399.99</td><td>$60.00</td></tr><tr><td>$400.00 - $499.99</td><td>$80.00</td></tr><tr><td>$500.00 or more</td><td>$100.00</td></tr></TABLE>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Offer only applies to services that include labor. Discount based on individual dealer's pricing guide. Genuine Nissan Ester Engine Oil or synthetic oil may be available at additional cost. No cash value.",
+            "couponCode": "N1GSD5",
+            "couponOpCode": "GSD5",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "": {
+                "5": null
+              }
+            },
+            "couponActive": true
+          },
+          {
+            "position": 7,
+            "offerType": "DefaultOffer",
+            "couponValue": 12.95,
+            "couponValue1": 110,
+            "couponType": 2,
+            "couponId": 146,
+            "couponName": "Value Adv. Brake Service Special (2 Prices)",
+            "couponSubtitle": "",
+            "couponCategory": {
+              "Brakes": true
+            },
+            "couponBody": "<UL list-style-type=\"disc\"><LI>Complimentary multi-point inspection</LI></UL>",
+            "couponLegal": "Certain restrictions apply. See offer disclosure for more information.* Value Advantage® Brake Pads and Rotors are Nissan-approved brake pads and rotors for Nissan vehicles, model years between 1995 and 2013. Excludes some models. All other parts, services and taxes are extra. Please see dealer for details. Excludes Brembo® Brakes. No cash value.",
+            "couponCode": "N2VAD6",
+            "couponOpCode": "VAD6",
+            "couponExpiration": "03/06/18",
+            "couponDiscountTemplates": {
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads. Resurfacing of rotors may be recommended at an additional cost.": {
+                "4": {
+                  "min": 4800,
+                  "max": 25000
+                }
+              },
+              "Installation of Nissan Value Advantage® Ceramic Brake Pads and Nissan Value Advantage® Brake Rotors.": {
+                "4": {
+                  "min": 14800,
+                  "max": 30000
+                }
+              }
+            },
+            "couponActive": true
+          }
+        ],
+        "loPerUser": 15.3251,
+        "approved": true
+      }
+    ],
+    "submitting": false,
+    "submitted": false
+  }
+]
