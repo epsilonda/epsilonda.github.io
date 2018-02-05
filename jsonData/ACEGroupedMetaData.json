@@ -541,8 +541,11 @@
             }
         },
         {
-            "className":"col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
-            "template":"<div class=\"col-md-12 col-sm-12 space-4\"></div>"
+            "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
+            "template": "<div class=\"col-md-12 col-sm-12 space-4\"></div>",
+            "templateOptions": {
+
+            }
         }
     ],
     "Form Templates": [{
