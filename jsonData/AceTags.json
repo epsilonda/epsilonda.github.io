@@ -63,12 +63,12 @@
         },
         {
           "text": "YYYY/MM/DD",
-          "val": "YYYY/MM/DD",
+          "val": "yyyy/MM/dd",
           "desc": "date in YYYY/MM/DD format"
         },
         {
           "text": "DD-MM-YYYY",
-          "val": "DD-MM-YYYY",
+          "val": "dd-MM-yyyy",
           "desc": "date in DD-MM-YYYY format"
         }
       ]
@@ -84,14 +84,9 @@
         },
         {
           "text": "YYYY/MM/DD",
-          "val": "YYYY/MM/DD",
+          "val": "yyyy/MM/dd",
           "desc": "date in YYYY/MM/DD format"
-        },
-        {
-          "text": "DD-MM-YYYY",
-          "val": "DD-MM-YYYY",
-          "desc": "date in DD-MM-YYYY format"
-        }
+        }       
       ]
     },
     {
