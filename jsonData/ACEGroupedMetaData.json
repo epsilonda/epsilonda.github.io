@@ -15,6 +15,23 @@
             }
         },
         {
+            "className": "pull-right no-horizontal-padding yes",
+            "id": "MainForm_fieldGroup1__activityButton",
+            "type": "md-button",
+            "templateOptions": {
+                "templateName": "Master Detail Button",
+                "text": "<i class=\"fa fa-eye bigger-110\"></i>&nbsp;Activity Log",
+                "type": "submit",
+                "formName": "ActivityEntry",
+                "programName": "automotiveCRM",
+                "btnType": "primary btn-sm",
+                "title": "Activity Entries",
+                "ActivityFormName": "AxisContactDemo",
+                "action": "LIST"
+            },
+            "hideExpression": "!model.formData"
+        },
+        {
             "id": "id_button_sm",
             "type": "ep-button",
             "className": "pull-right",
@@ -56,8 +73,8 @@
             "type": "ep-checkbox",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
             "templateOptions": {
-                "templateName": "Checkbox",               
-                "label": "CheckBox",                
+                "templateName": "Checkbox",
+                "label": "CheckBox",
                 "ngFalseValue": "false",
                 "ngTrueValue": "true",
                 "required": true
@@ -174,13 +191,30 @@
                 "actualModel": "KeyName",
                 "label": "Dropdown",
                 "initKey": "InitKeyName",
-                "options": [
-                    {"NAME":"OPTION 1", "VALUE":"1"},
-                    {"NAME":"OPTION 2", "VALUE":"2"},
-                    {"NAME":"OPTION 3", "VALUE":"3"},
-                    {"NAME":"OPTION 4", "VALUE":"4"},
-                    {"NAME":"OPTION 5", "VALUE":"5"},
-                    {"NAME":"OPTION 6", "VALUE":"6"}
+                "options": [{
+                        "NAME": "OPTION 1",
+                        "VALUE": "1"
+                    },
+                    {
+                        "NAME": "OPTION 2",
+                        "VALUE": "2"
+                    },
+                    {
+                        "NAME": "OPTION 3",
+                        "VALUE": "3"
+                    },
+                    {
+                        "NAME": "OPTION 4",
+                        "VALUE": "4"
+                    },
+                    {
+                        "NAME": "OPTION 5",
+                        "VALUE": "5"
+                    },
+                    {
+                        "NAME": "OPTION 6",
+                        "VALUE": "6"
+                    }
                 ],
                 "valueProp": "VALUE",
                 "labelProp": "NAME"
@@ -388,7 +422,7 @@
             }
         },
         {
-            "id":"id_textbox_minmax",
+            "id": "id_textbox_minmax",
             "key": "key_textbox_minmax",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -409,7 +443,7 @@
             }
         },
         {
-            "id":"id_textbox_phone",
+            "id": "id_textbox_phone",
             "key": "key_textbox_phone",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -427,7 +461,7 @@
             }
         },
         {
-            "id":"id_textbox_email",
+            "id": "id_textbox_email",
             "key": "key_textbox_email",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -445,7 +479,7 @@
             }
         },
         {
-            "id":"id_textbox_zip",
+            "id": "id_textbox_zip",
             "key": "key_textbox_zip",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -463,7 +497,7 @@
             }
         },
         {
-            "id":"id_textbox_url",
+            "id": "id_textbox_url",
             "key": "key_textbox_url",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -481,7 +515,7 @@
             }
         },
         {
-            "id":"id_textbox_ipaddress",
+            "id": "id_textbox_ipaddress",
             "key": "key_textbox_ipaddress",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -500,7 +534,7 @@
             }
         },
         {
-            "id":"id_textbox_price",
+            "id": "id_textbox_price",
             "key": "key_textbox_price",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
@@ -519,7 +553,7 @@
             }
         },
         {
-            "id":"id_textbox_custom",
+            "id": "id_textbox_custom",
             "key": "key_textbox_custom",
             "type": "ep-text",
             "className": "col-sm-6 col-md-6 col-lg-6 no-horizontal-padding",
